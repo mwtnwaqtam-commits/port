@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohamed Khaled Abdelgawad — Data Science and Data Analysis portfolio." />
+  <title>Mohamed Khaled | Data Scientist & Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animations.css" />
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <!-- Intro loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-brand">MK<span>.</span></div>
+      <div class="loader-bar"><i></i></div>
+    </div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">Mohamed Khaled<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow hero-anim" style="--i:0">DATA SCIENCE • DATA ANALYSIS • MACHINE LEARNING</p>
+        <h1 class="hero-anim" style="--i:1">Turning data into <span>meaningful impact.</span></h1>
+        <p class="typed-line hero-anim" style="--i:2"><span class="typed-prefix">&gt; </span><span id="typed">Data Analysis</span><span class="caret"></span></p>
+        <p class="hero-text hero-anim" style="--i:3">I’m Mohamed Khaled Abdelgawad, a Data Science and Data Analysis practitioner with hands-on experience in data cleaning, exploratory data analysis, web scraping, and machine learning. I focus on turning raw data into meaningful insights that support better decisions.</p>
+        <div class="hero-actions hero-anim" style="--i:4">
+          <a class="btn primary" href="#projects">Explore my work ↗</a>
+          <a class="btn secondary" href="cv.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Download CV</a>
+        </div>
+        <div class="hero-stats hero-anim" style="--i:5">
+          <div><strong data-count="45593">45,593</strong><span>Records analyzed</span></div>
+          <div><strong data-count="99.2" data-decimals="1" data-suffix="%">99.2%</strong><span>Data cleanliness</span></div>
+          <div><strong data-count="1000" data-suffix="+">1,000+</strong><span>Books scraped</span></div>
+        </div>
+        <div class="quick-facts hero-anim" style="--i:6">
+          <span>📍 Cairo, Egypt</span>
+          <span>✉ mwtnwaqtam@gmail.com</span>
+        </div>
+      </div>
+      <div class="hero-visual hero-anim" style="--i:3">
+        <div class="portrait-container">
+          <div class="orbit orbit-1" aria-hidden="true"><i></i></div>
+          <div class="orbit orbit-2" aria-hidden="true"><i></i></div>
+          <img src="profile.jpg" alt="Mohamed Khaled" class="profile-img" />
+        </div>
+        <div class="badges-group">
+          <span class="floating-badge">▥ Data Analysis</span>
+          <span class="floating-badge">◈ Machine Learning</span>
+          <span class="floating-badge">◉ Web Scraping</span>
+        </div>
+      </div>
+    </section>
+
+    <a class="scroll-hint" href="#about" aria-label="Scroll to About section"><span></span></a>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Curious mind. Analytical thinking. Continuous growth.</h2>
+      </div>
+      <div class="about-grid">
+        <p>My background in Computer Science and Artificial Intelligence supports my focus on Data Science and Data Analysis, with a strong foundation in analytical thinking, problem-solving, and data-driven approaches.</p>
+        <p>Experienced in collecting, cleaning, analyzing, and visualizing real-world datasets to identify patterns and generate actionable insights. Skilled in Python, SQL, Power BI, and Machine Learning algorithms.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Skills I’m building every day.</h2>
+        </div>
+        <div class="skill-grid">
+          <article>
+            <h3>Programming Languages</h3>
+            <div class="tags"><span>Python</span><span>SQL</span><span>C++</span><span>JavaScript</span></div>
+          </article>
+          <article>
+            <h3>Data Analysis & Prep</h3>
+            <div class="tags"><span>Pandas</span><span>NumPy</span><span>EDA</span><span>Data Cleaning</span><span>Data Preparation</span><span>Statistics</span></div>
+          </article>
+          <article>
+            <h3>Visualization & BI</h3>
+            <div class="tags"><span>Power BI</span><span>DAX</span><span>Matplotlib</span><span>Microsoft Excel</span></div>
+          </article>
+          <article>
+            <h3>Web Scraping & ML</h3>
+            <div class="tags"><span>Requests</span><span>BeautifulSoup</span><span>Machine Learning</span><span>Neural Networks</span><span>Deep Learning</span></div>
+          </article>
+          <article>
+            <h3>Tools & Platforms</h3>
+            <div class="tags"><span>Jupyter Notebook</span><span>Git</span><span>GitHub</span><span>MySQL</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects that turn practice into progress.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-thumb"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiBmb250LWZhbWlseT0iSW50ZXIsc3lzdGVtLXVpLEFyaWFsLHNhbnMtc2VyaWYiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzBmMWIyZCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBiMmEyYSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJhciIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzM0ZDM5OSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OTY2OSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNNDAgMEgwVjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIuMDUiLz48L3BhdHRlcm4+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSJ1cmwoI2JnKSIvPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSJ1cmwoI2dyaWQpIi8+CiAgPCEtLSBtYXAgY2FyZCAtLT4KICA8cmVjdCB4PSIzMCIgeT0iNDAiIHdpZHRoPSI0MzAiIGhlaWdodD0iMzQwIiByeD0iMTgiIGZpbGw9IiMwYjBmMTkiIGZpbGwtb3BhY2l0eT0iLjU1IiBzdHJva2U9IiMzNzQxNTEiLz4KICA8cGF0aCBkPSJNOTAgMzAwIEMxNjAgMzAwIDE1MCAyMDAgMjMwIDIwMCBTMzAwIDEyMCA0MDAgMTEwIiBmaWxsPSJub25lIiBzdHJva2U9IiMxMGI5ODEiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWRhc2hhcnJheT0iNCAxMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPCEtLSByZXN0YXVyYW50IHBpbiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5MCAzMDApIj48Y2lyY2xlIHI9IjI2IiBmaWxsPSIjZjU5ZTBiIiBmaWxsLW9wYWNpdHk9Ii4yIi8+PHBhdGggZD0iTTAgMTQgQy0xOCAtNiAtMTQgLTI2IDAgLTI2IEMxNCAtMjYgMTggLTYgMCAxNFoiIGZpbGw9IiNmNTllMGIiLz48Y2lyY2xlIGN5PSItMTIiIHI9IjYiIGZpbGw9IiMwYjBmMTkiLz48L2c+CiAgPCEtLSBob21lIHBpbiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAgMTEwKSI+PGNpcmNsZSByPSIyNiIgZmlsbD0iIzNiODJmNiIgZmlsbC1vcGFjaXR5PSIuMiIvPjxwYXRoIGQ9Ik0wIDE0IEMtMTggLTYgLTE0IC0yNiAwIC0yNiBDMTQgLTI2IDE4IC02IDAgMTRaIiBmaWxsPSIjM2I4MmY2Ii8+PHBhdGggZD0iTS03IC0xMiBMMCAtMTkgTDcgLTEyIFYtNSBILTdaIiBmaWxsPSIjMGIwZjE5Ii8+PC9nPgogIDwhLS0gc2Nvb3RlciAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMDAgMjA1KSBzY2FsZSgxLjMpIj4KICAgIDxjaXJjbGUgY3g9Ii0yOCIgY3k9IjQyIiByPSIxNSIgZmlsbD0iIzBiMGYxOSIgc3Ryb2tlPSIjZTVlN2ViIiBzdHJva2Utd2lkdGg9IjQiLz4KICAgIDxjaXJjbGUgY3g9IjQwIiBjeT0iNDIiIHI9IjE1IiBmaWxsPSIjMGIwZjE5IiBzdHJva2U9IiNlNWU3ZWIiIHN0cm9rZS13aWR0aD0iNCIvPgogICAgPHBhdGggZD0iTS0yOCA0MiBMLTE0IDEwIEgyMCBMNDAgNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U1ZTdlYiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxwYXRoIGQ9Ik0tMjAgMTAgSDE4IEwyNiAyOCBILTE0WiIgZmlsbD0iIzEwYjk4MSIvPgogICAgPHBhdGggZD0iTTM0IDQgTDQ0IC0yMCBINTYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U1ZTdlYiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxyZWN0IHg9Ii02MCIgeT0iLTI2IiB3aWR0aD0iNDYiIGhlaWdodD0iMzYiIHJ4PSI2IiBmaWxsPSIjZjU5ZTBiIi8+PHBhdGggZD0iTS02MCAtMTQgSC0xNCIgc3Ryb2tlPSIjYjQ1MzA5IiBzdHJva2Utd2lkdGg9IjMiLz4KICAgIDxjaXJjbGUgY3g9IjYiIGN5PSItMzAiIHI9IjEwIiBmaWxsPSIjZmJiZjI0Ii8+PHBhdGggZD0iTS00IC0xOCBMLTIgNiBIMTYgTDE0IC0xOFoiIGZpbGw9IiMzYjgyZjYiLz4KICAgIDxwYXRoIGQ9Ik0xNCAtMTAgTDM2IC00IiBzdHJva2U9IiNmYmJmMjQiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9nPgogIDwhLS0gc3BlZWQgbGluZXMgLS0+CiAgPGcgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utb3BhY2l0eT0iLjI1IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTExMCAyNDVIMTUwIi8+PHBhdGggZD0iTTk1IDI2NUgxNDAiLz48cGF0aCBkPSJNMTE4IDI4NUgxNTIiLz48L2c+CiAgPCEtLSBldGEgY2hpcCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA2MikiPjxyZWN0IHdpZHRoPSIxOTAiIGhlaWdodD0iNDQiIHJ4PSIyMiIgZmlsbD0iIzEwYjk4MSIgZmlsbC1vcGFjaXR5PSIuMTgiIHN0cm9rZT0iIzEwYjk4MSIvPjxjaXJjbGUgY3g9IjI2IiBjeT0iMjIiIHI9IjkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM0ZDM5OSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz48cGF0aCBkPSJNMjYgMTZWMjJMMzEgMjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM0ZDM5OSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjx0ZXh0IHg9IjQ2IiB5PSIyOCIgZmlsbD0iI2QxZmFlNSIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjcwMCI+RGVsaXZlcnkgdGltZSBhbmFseXNpczwvdGV4dD48L2c+CiAgPCEtLSBjaGFydCBjYXJkIC0tPgogIDxyZWN0IHg9IjQ5MCIgeT0iNDAiIHdpZHRoPSIyODAiIGhlaWdodD0iMzQwIiByeD0iMTgiIGZpbGw9IiMwYjBmMTkiIGZpbGwtb3BhY2l0eT0iLjU1IiBzdHJva2U9IiMzNzQxNTEiLz4KICA8dGV4dCB4PSI1MTQiIHk9Ijc4IiBmaWxsPSIjZjlmYWZiIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iNzAwIj5EZWxpdmVyeSB0aW1lIGJ5IHRyYWZmaWM8L3RleHQ+CiAgPHRleHQgeD0iNTE0IiB5PSI5OCIgZmlsbD0iIzljYTNhZiIgZm9udC1zaXplPSIxMiI+bWludXRlcyDCtyBhdmcgcGVyIG9yZGVyPC90ZXh0PgogIDxnPgogICAgPHJlY3QgeD0iNTIwIiB5PSIyMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5MCIgcng9IjYiIGZpbGw9InVybCgjYmFyKSIvPgogICAgPHJlY3QgeD0iNTgwIiB5PSIxOTYiIHdpZHRoPSI0MiIgaGVpZ2h0PSIxMjQiIHJ4PSI2IiBmaWxsPSJ1cmwoI2JhcikiLz4KICAgIDxyZWN0IHg9IjY0MCIgeT0iMTYwIiB3aWR0aD0iNDIiIGhlaWdodD0iMTYwIiByeD0iNiIgZmlsbD0idXJsKCNiYXIpIi8+CiAgICA8cmVjdCB4PSI3MDAiIHk9IjEyOCIgd2lkdGg9IjQyIiBoZWlnaHQ9IjE5MiIgcng9IjYiIGZpbGw9IiNmNTllMGIiLz4KICA8L2c+CiAgPGcgZmlsbD0iIzljYTNhZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+PHRleHQgeD0iNTQxIiB5PSIzNDAiPkxvdzwvdGV4dD48dGV4dCB4PSI2MDEiIHk9IjM0MCI+TWVkaXVtPC90ZXh0Pjx0ZXh0IHg9IjY2MSIgeT0iMzQwIj5IaWdoPC90ZXh0Pjx0ZXh0IHg9IjcyMSIgeT0iMzQwIj5KYW08L3RleHQ+PC9nPgogIDxwYXRoIGQ9Ik01MjAgMjE0IEw2MDEgMTgwIEw2NjEgMTQ2IEw3MjEgMTEyIiBmaWxsPSJub25lIiBzdHJva2U9IiMzYjgyZjYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGcgZmlsbD0iIzNiODJmNiI+PGNpcmNsZSBjeD0iNTQxIiBjeT0iMjE0IiByPSIwIi8+PGNpcmNsZSBjeD0iNjAxIiBjeT0iMTgwIiByPSI1Ii8+PGNpcmNsZSBjeD0iNjYxIiBjeT0iMTQ2IiByPSI1Ii8+PGNpcmNsZSBjeD0iNzIxIiBjeT0iMTEyIiByPSI1Ii8+PC9nPgogIDwhLS0ga3BpIGNoaXBzIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUxNCAzNjYpIiBmb250LXNpemU9IjEyIiBmb250LXdlaWdodD0iNzAwIj48dGV4dCBmaWxsPSIjMzRkMzk5IiB4PSIwIiB5PSIwIj40NSw1OTMgb3JkZXJzPC90ZXh0Pjx0ZXh0IGZpbGw9IiM2MGE1ZmEiIHg9IjExMCIgeT0iMCI+MjAgZmVhdHVyZXM8L3RleHQ+PC9nPgo8L3N2Zz4K" alt="Food delivery analysis: delivery route and delivery time by traffic chart" loading="lazy" /></div>
+          <div class="project-number">01</div>
+          <p class="project-status">DATA ANALYSIS</p>
+          <h3>Food Delivery Data Analysis</h3>
+          <p>Processed and analyzed 45,593 records across 20 columns, achieving 99.2% data cleanliness. Engineered features for preparation time and geographic distances, reducing delivery delay metrics by 15%.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>EDA</span></div>
+          <div class="project-links">
+            <a class="btn secondary" href="https://github.com/mwtnwaqtam-commits/food-delivery-analysis" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiBmb250LWZhbWlseT0iSW50ZXIsc3lzdGVtLXVpLEFyaWFsLHNhbnMtc2VyaWYiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzE0MTIyYiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBjMWYzYSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNNDAgMEgwVjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIuMDUiLz48L3BhdHRlcm4+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSJ1cmwoI2JnKSIvPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSJ1cmwoI2dyaWQpIi8+CiAgPCEtLSBicm93c2VyIHdpbmRvdyAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMCA1MCkiPgogICAgPHJlY3Qgd2lkdGg9IjMzMCIgaGVpZ2h0PSIzMjAiIHJ4PSIxNiIgZmlsbD0iIzBiMGYxOSIgZmlsbC1vcGFjaXR5PSIuNiIgc3Ryb2tlPSIjMzc0MTUxIi8+CiAgICA8cGF0aCBkPSJNMCAxNiBhMTYgMTYgMCAwIDEgMTYgLTE2IEgzMTQgYTE2IDE2IDAgMCAxIDE2IDE2IFY0MCBIMFoiIGZpbGw9IiMxZjI5MzciLz4KICAgIDxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjUiIGZpbGw9IiNlZjQ0NDQiLz48Y2lyY2xlIGN4PSIzOCIgY3k9IjIwIiByPSI1IiBmaWxsPSIjZjU5ZTBiIi8+PGNpcmNsZSBjeD0iNTYiIGN5PSIyMCIgcj0iNSIgZmlsbD0iIzEwYjk4MSIvPgogICAgPHJlY3QgeD0iODAiIHk9IjEwIiB3aWR0aD0iMjI2IiBoZWlnaHQ9IjIwIiByeD0iMTAiIGZpbGw9IiMwYjBmMTkiLz48dGV4dCB4PSI5NCIgeT0iMjUiIGZpbGw9IiM5Y2EzYWYiIGZvbnQtc2l6ZT0iMTEiPmJvb2tzLnRvc2NyYXBlLmNvbTwvdGV4dD4KICAgIDwhLS0gYm9vayBjYXJkcyAtLT4KICAgIDxnPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNCA2MikiPjxyZWN0IHdpZHRoPSI4NCIgaGVpZ2h0PSIxMTIiIHJ4PSI2IiBmaWxsPSIjNjM2NmYxIi8+PHJlY3QgeD0iMTAiIHk9IjEyIiB3aWR0aD0iNjQiIGhlaWdodD0iOCIgcng9IjMiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgiLz48cmVjdCB4PSIxMCIgeT0iMjYiIHdpZHRoPSI0MCIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxjaXJjbGUgY3g9IjQyIiBjeT0iNjgiIHI9IjE2IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii4yIi8+PC9nPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjMgNjIpIj48cmVjdCB3aWR0aD0iODQiIGhlaWdodD0iMTEyIiByeD0iNiIgZmlsbD0iIzEwYjk4MSIvPjxyZWN0IHg9IjEwIiB5PSIxMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjgiIHJ4PSIzIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii44Ii8+PHJlY3QgeD0iMTAiIHk9IjI2IiB3aWR0aD0iNDAiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMTQgOTYgTDQyIDUyIEw3MCA5NloiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjIiLz48L2c+CiAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIyMiA2MikiPjxyZWN0IHdpZHRoPSI4NCIgaGVpZ2h0PSIxMTIiIHJ4PSI2IiBmaWxsPSIjZjU5ZTBiIi8+PHJlY3QgeD0iMTAiIHk9IjEyIiB3aWR0aD0iNjQiIGhlaWdodD0iOCIgcng9IjMiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgiLz48cmVjdCB4PSIxMCIgeT0iMjYiIHdpZHRoPSI0MCIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxyZWN0IHg9IjIyIiB5PSI1MiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuMiIvPjwvZz4KICAgIDwvZz4KICAgIDxnIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiNmYmJmMjQiPjx0ZXh0IHg9IjI0IiB5PSIxOTYiPuKYheKYheKYheKYheKYhTwvdGV4dD48dGV4dCB4PSIxMjMiIHk9IjE5NiI+4piF4piF4piF4piG4piGPC90ZXh0Pjx0ZXh0IHg9IjIyMiIgeT0iMTk2Ij7imIXimIXimIXimIXimIY8L3RleHQ+PC9nPgogICAgPGcgZm9udC1zaXplPSIxMiIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2U1ZTdlYiI+PHRleHQgeD0iMjQiIHk9IjIxNCI+wqM1MS43NzwvdGV4dD48dGV4dCB4PSIxMjMiIHk9IjIxNCI+wqM1My43NDwvdGV4dD48dGV4dCB4PSIyMjIiIHk9IjIxNCI+wqM1MC4xMDwvdGV4dD48L2c+CiAgICA8IS0tIGNvZGUgc25pcHBldCAtLT4KICAgIDxyZWN0IHg9IjI0IiB5PSIyMzQiIHdpZHRoPSIyODIiIGhlaWdodD0iNjQiIHJ4PSI4IiBmaWxsPSIjMTExODI3IiBzdHJva2U9IiMzNzQxNTEiLz4KICAgIDxnIGZvbnQtZmFtaWx5PSJ1aS1tb25vc3BhY2UsTWVubG8sQ29uc29sYXMsbW9ub3NwYWNlIiBmb250LXNpemU9IjExLjUiPjx0ZXh0IHg9IjM2IiB5PSIyNTQiIGZpbGw9IiM4MThjZjgiPnNvdXAuc2VsZWN0KDwvdGV4dD48dGV4dCB4PSIzNiIgeT0iMjcyIiBmaWxsPSIjMzRkMzk5Ij4gICJhcnRpY2xlLnByb2R1Y3RfcG9kIjwvdGV4dD48dGV4dCB4PSIzNiIgeT0iMjkwIiBmaWxsPSIjODE4Y2Y4Ij4pPC90ZXh0PjwvZz4KICA8L2c+CiAgPCEtLSBhcnJvdyAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNzIgMjEwKSI+CiAgICA8Y2lyY2xlIHI9IjMwIiBmaWxsPSIjNjM2NmYxIiBmaWxsLW9wYWNpdHk9Ii4yIiBzdHJva2U9IiM2MzY2ZjEiLz4KICAgIDxwYXRoIGQ9Ik0tMTIgMEgxMk00IC05TDEzIDBMNCA5IiBmaWxsPSJub25lIiBzdHJva2U9IiNhNWI0ZmMiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPC9nPgogIDwhLS0gY3N2IHRhYmxlIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQyMCA1MCkiPgogICAgPHJlY3Qgd2lkdGg9IjM1MCIgaGVpZ2h0PSIzMjAiIHJ4PSIxNiIgZmlsbD0iIzBiMGYxOSIgZmlsbC1vcGFjaXR5PSIuNiIgc3Ryb2tlPSIjMzc0MTUxIi8+CiAgICA8cmVjdCB3aWR0aD0iMzUwIiBoZWlnaHQ9IjQ0IiByeD0iMTYiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB5PSIyOCIgd2lkdGg9IjM1MCIgaGVpZ2h0PSIxNiIgZmlsbD0iIzFmMjkzNyIvPgogICAgPHRleHQgeD0iMjAiIHk9IjI4IiBmaWxsPSIjZjlmYWZiIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNzAwIj5ib29rcy5jc3Y8L3RleHQ+CiAgICA8ZyBmaWxsPSIjMzRkMzk5IiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIj48dGV4dCB4PSIyMCIgeT0iNzIiPnRpdGxlPC90ZXh0Pjx0ZXh0IHg9IjEzMCIgeT0iNzIiPnByaWNlPC90ZXh0Pjx0ZXh0IHg9IjE5MCIgeT0iNzIiPnJhdGluZzwvdGV4dD48dGV4dCB4PSIyNTAiIHk9IjcyIj5jYXRlZ29yeTwvdGV4dD48L2c+CiAgICA8cGF0aCBkPSJNMTIgODJIMzM4IiBzdHJva2U9IiMzNzQxNTEiLz4KICAgIDxnIGZpbGw9IiM5Y2EzYWYiIGZvbnQtc2l6ZT0iMTEiPgogICAgICA8dGV4dCB4PSIyMCIgeT0iMTA0Ij5TaWxlbnQgR2FyZGVuPC90ZXh0Pjx0ZXh0IHg9IjEzMCIgeT0iMTA0Ij41MS43NzwvdGV4dD48dGV4dCB4PSIxOTAiIHk9IjEwNCI+NTwvdGV4dD48dGV4dCB4PSIyNTAiIHk9IjEwNCI+VHJhdmVsPC90ZXh0PgogICAgICA8dGV4dCB4PSIyMCIgeT0iMTMwIj5OaWdodCBSaXZlcjwvdGV4dD48dGV4dCB4PSIxMzAiIHk9IjEzMCI+NTMuNzQ8L3RleHQ+PHRleHQgeD0iMTkwIiB5PSIxMzAiPjM8L3RleHQ+PHRleHQgeD0iMjUwIiB5PSIxMzAiPk15c3Rlcnk8L3RleHQ+CiAgICAgIDx0ZXh0IHg9IjIwIiB5PSIxNTYiPkxhc3QgV2ludGVyPC90ZXh0Pjx0ZXh0IHg9IjEzMCIgeT0iMTU2Ij41MC4xMDwvdGV4dD48dGV4dCB4PSIxOTAiIHk9IjE1NiI+NDwvdGV4dD48dGV4dCB4PSIyNTAiIHk9IjE1NiI+Q2xhc3NpY3M8L3RleHQ+CiAgICAgIDx0ZXh0IHg9IjIwIiB5PSIxODIiPldpbGQgTGlnaHQ8L3RleHQ+PHRleHQgeD0iMTMwIiB5PSIxODIiPjE3LjkzPC90ZXh0Pjx0ZXh0IHg9IjE5MCIgeT0iMTgyIj4yPC90ZXh0Pjx0ZXh0IHg9IjI1MCIgeT0iMTgyIj5GaWN0aW9uPC90ZXh0PgogICAgICA8dGV4dCB4PSIyMCIgeT0iMjA4Ij5TdG9uZSBTZWNyZXQ8L3RleHQ+PHRleHQgeD0iMTMwIiB5PSIyMDgiPjIyLjYwPC90ZXh0Pjx0ZXh0IHg9IjE5MCIgeT0iMjA4Ij40PC90ZXh0Pjx0ZXh0IHg9IjI1MCIgeT0iMjA4Ij5Sb21hbmNlPC90ZXh0PgogICAgPC9nPgogICAgPGcgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1Ij48cGF0aCBkPSJNMTIgMTE0SDMzOCIvPjxwYXRoIGQ9Ik0xMiAxNDBIMzM4Ii8+PHBhdGggZD0iTTEyIDE2NkgzMzgiLz48cGF0aCBkPSJNMTIgMTkySDMzOCIvPjwvZz4KICAgIDwhLS0gY2hpcHMgLS0+CiAgICA8ZyBmb250LXNpemU9IjEzIiBmb250LXdlaWdodD0iNzAwIj4KICAgICAgPHJlY3QgeD0iMjAiIHk9IjIzOCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSI1NiIgcng9IjEyIiBmaWxsPSIjNjM2NmYxIiBmaWxsLW9wYWNpdHk9Ii4xOCIgc3Ryb2tlPSIjNjM2NmYxIi8+PHRleHQgeD0iMzYiIHk9IjI2MiIgZmlsbD0iI2M3ZDJmZSIgZm9udC1zaXplPSIyMCI+MSwwMDArPC90ZXh0Pjx0ZXh0IHg9IjM2IiB5PSIyODIiIGZpbGw9IiNhNWI0ZmMiIGZvbnQtc2l6ZT0iMTEiPmJvb2tzIHNjcmFwZWQ8L3RleHQ+CiAgICAgIDxyZWN0IHg9IjE3NiIgeT0iMjM4IiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjU2IiByeD0iMTIiIGZpbGw9IiMxMGI5ODEiIGZpbGwtb3BhY2l0eT0iLjE4IiBzdHJva2U9IiMxMGI5ODEiLz48dGV4dCB4PSIxOTIiIHk9IjI2MiIgZmlsbD0iI2QxZmFlNSIgZm9udC1zaXplPSIyMCI+NTA8L3RleHQ+PHRleHQgeD0iMTkyIiB5PSIyODIiIGZpbGw9IiM2ZWU3YjciIGZvbnQtc2l6ZT0iMTEiPnBhZ2VzIGNyYXdsZWQ8L3RleHQ+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="Books web scraping: book pages from the website converted into a structured CSV table" loading="lazy" /></div>
+          <div class="project-number">02</div>
+          <p class="project-status">WEB SCRAPING</p>
+          <h3>Books Web Scraping</h3>
+          <p>Extracted and structured catalog datasets for 1,000+ books across 50 web pages using custom Python scripts, producing 100% complete CSV datasets with zero missing values.</p>
+          <div class="tags"><span>Python</span><span>Requests</span><span>BeautifulSoup</span><span>Pandas</span></div>
+          <div class="project-links">
+            <a class="btn secondary" href="https://github.com/mwtnwaqtam-commits/books-web-scraping" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="section muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / JOURNEY</p>
+          <h2>Professional Development.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>July 2026 - Present · Trainee</span>
+            <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+            <p>Data Science Trainee · Developed 3 machine learning capstone projects, improving model performance by 15% through feature engineering and hyperparameter tuning.</p>
+          </div>
+          <div class="timeline-item">
+            <span>45-Hour Training Program · Trainee</span>
+            <h3>InnovEgypt Program (ITIDA | TIEC)</h3>
+            <p>Completed a 45-hour training course and developed a final project for a potential startup, building hands-on experience in innovation, entrepreneurship, and teamwork.</p>
+          </div>
+          <div class="timeline-item">
+            <span>July 2025 · Online Course</span>
+            <h3>Communication Skills Course (STJEGYPT)</h3>
+            <p>Completed an online course focused on clear expression, active listening, and effective interaction in teamwork and professional settings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="certifications" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">05 / CERTIFICATIONS</p>
+        <h2>Learning beyond the technical skills.</h2>
+      </div>
+      <div class="certificate-card">
+        <a class="certificate-image-link" href="communication-skills-certificate.png" target="_blank" rel="noopener noreferrer" aria-label="View certificate in full size">
+          <img src="communication-skills-certificate.png" alt="Certificate of Achievement for completing the Communication Skills course, issued by STJEGYPT" class="certificate-image" />
+        </a>
+        <div class="certificate-details">
+          <p class="project-status">CERTIFICATE OF ACHIEVEMENT</p>
+          <h3>Communication Skills Course</h3>
+          <p><strong>Issuing organization:</strong> STJEGYPT</p>
+          <p><strong>Issued:</strong> July 16, 2025</p>
+          <p>This online course focused on communication skills, helping strengthen clear expression, active listening, and effective interaction in teamwork and professional settings.</p>
+          <a class="btn secondary" href="communication-skills-certificate.png" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <a class="certificate-image-link" href="innovegypt-certificate.png" target="_blank" rel="noopener noreferrer" aria-label="View certificate in full size">
+          <img src="innovegypt-certificate.png" alt="Certificate of Acknowledgement for completing a 45-hour training course in the InnovEgypt program, issued by ITIDA and TIEC" class="certificate-image" />
+        </a>
+        <div class="certificate-details">
+          <p class="project-status">CERTIFICATE OF ACKNOWLEDGEMENT</p>
+          <h3>InnovEgypt Training Program</h3>
+          <p><strong>Issuing organization:</strong> ITIDA | TIEC</p>
+          <p><strong>Certificate ID:</strong> C0527S25T1722</p>
+          <p>Successfully completed a 45-hour training course and developed a final project for a potential startup, strengthening innovation, entrepreneurship, and teamwork skills.</p>
+          <a class="btn secondary" href="innovegypt-certificate.png" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">06 / GET IN TOUCH</p>
+          <h2>Let’s build something great together.</h2>
+          <p>I’m open to learning opportunities, challenging projects, teamwork, and professional experiences.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:mwtnwaqtam@gmail.com"><i class="fa-solid fa-envelope"></i> mwtnwaqtam@gmail.com</a>
+          <a href="https://github.com/mwtnwaqtam-commits" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+          <a href="https://linkedin.com/in/mohamed-elwakel-9a4828347" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+          <a href="tel:+201005539158"><i class="fa-solid fa-phone"></i> +20 100 553 9158</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mohamed Khaled Abdelgawad</span>
+      <span>Built with curiosity & consistency.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="animations.js" defer></script>
+</body>
+</html>
